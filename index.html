@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Pop by the Polls</title>
     <!-- link to style.css -->
     <!-- link to script.js - make sure to defer -->
@@ -14,7 +15,7 @@
     <main>
       <article>
         <!--header of article goes here-->
-        <header>
+        <header class="grid-1-2">
           <section>
             <h1>Pop by the Polls</h1>
             <p>
@@ -23,9 +24,10 @@
               <a href="a#" title="Read About the Issues">Read More</a>
             </p>
             <figure>
-              <img src="../images/united-states.svg" alt="United States">
+              <img src="./images/united-states.svg" alt="United States">
             </figure>
           </section>
+          </article>
         </header>
         <!--issues section-->
         <section>
@@ -34,9 +36,9 @@
             <p>These are the issues that voters and candidates are discussing this primary season</p>
             <section></section>
           </header>
-          <section>
+          <section class="grid-1-4">
             <!-- first issue -->
-            <article>
+            <article class="card">
               <figure><img src="./images/issue.jpg" alt="Issue One"></figure>
               <section>
                 <h3>Issue One</h3>
@@ -44,7 +46,7 @@
               </section>
             </article>
             <!-- second issue -->
-            <article>
+            <article class="card">
               <figure><img src="./images/issue.jpg" alt="Issue Two"></figure>
               <section>
                 <h3>Issue Two</h3>
@@ -52,7 +54,7 @@
               </section>
             </article>
             <!-- third issue -->
-            <article>
+            <article class="card">
               <figure><img src="./images/issue.jpg" alt="Issue Three"></figure>
               <section>
                 <h3>Issue Three</h3>
@@ -60,7 +62,7 @@
               </section>
             </article>
             <!-- fourth issue -->
-            <article>
+            <article class="card">
               <figure><img src="./images/issue.jpg" alt="Issue Four"></figure>
               <section>
                 <h3>Issue Four</h3>
@@ -78,7 +80,7 @@
             </p>
             <section>
               <!-- candidate card-->
-              <article>
+              <article class="card grid-1-2">
                   <figure><img src="./images/candidate.jpg" alt="Candidate"></figure>
                 <section>
                   <h3>Name of Candidate</h3>
@@ -97,7 +99,7 @@
             <p>This is a location that voters can visit to cast a ballot for the candidates they prefer.</p>
             <section>
               <!-- polling place card-->
-              <article>
+              <articl class="card grid-1-2">
                 <figure><img src="./images/polling-place.jpg" alt="Polling Place"></figure>
                 <section>
                   <h3>Name of Polling Place</h3>
@@ -105,7 +107,7 @@
                     Rem labore, facilis aspernatur at cupiditate ut in, quidem tempora fuga eveniet doloribus necessitatibus 
                     totam distinctio voluptatem nesciunt? Eius asperiores voluptatibus ipsa.</p>
                 </section>
-              </article>
+              
             </section>
           </header>
         </section>
@@ -118,7 +120,7 @@
             </p>
             <section>
               <!-- sample ballot card -->
-              <article>
+              <article class="card grid-1-2">
                 <figure><img src="./images/sample-ballot.jpg" alt="Sample Ballot"></figure>
                 <section>
                   <h3>Name of Sample</h3>
@@ -131,6 +133,7 @@
           </header>
         </section>
       </article>
+    </article>
     </main>
 
     <!-- footer element goes here -->
